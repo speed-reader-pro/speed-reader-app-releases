@@ -1,21 +1,34 @@
 <?xml version="1.0" standalone="yes"?>
-  <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-    <channel>
-      <title>Speed Reader</title>
-      <link>https://speed-reader.pro</link>
-      <description>Speed Reader release feed</description>
-      <language>en</language>
-      <item>
-        <title>Version 1.0</title>
-        <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
-        <sparkle:version>1</sparkle:version>
-        <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-        <enclosure
-          url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0/SpeedReader.dmg"
-          sparkle:edSignature="S5PrhzYcB7Imo2Tiv4AsEfNCELoPQEjcea6VaxXOGLb55OOIV1KAj90kzOIZiZdWlJ4gFpdOfDnO+B5pMVQoDQ=="
-          length="9863516"
-          type="application/octet-stream"/>
-      </item>
-    </channel>
-  </rss>
+    <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+      <channel>
+        <title>Speed Reader</title>
+        <link>https://speed-reader.pro</link>
+        <description>Speed Reader release feed</description>
+        <language>en</language>
+        <item>
+          <title>Version 1.0.1</title>
+          <description>Test release to verify Sparkle auto-update flow.</description>
+          <pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate>
+          <sparkle:version>2</sparkle:version>
+          <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+          <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+          <enclosure
+            url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.1/SpeedReader.dmg"
+            sparkle:edSignature="Psuef10vR6ng7lxdIu+Q+FSFg4pN6Cij83CyAuti7HX6dlZRAk2ts57E9ld8GSxFfL9Vw6PIBdG03F34SUQvAA=="
+            length="9863649"
+            type="application/octet-stream"/>
+        </item>
+        <item>
+          <title>Version 1.0</title>
+          <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+          <sparkle:version>1</sparkle:version>
+          <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+          <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+          <enclosure
+            url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0/SpeedReader.dmg"
+            sparkle:edSignature="S5PrhzYcB7Imo2Tiv4AsEfNCELoPQEjcea6VaxXOGLb55OOIV1KAj90kzOIZiZdWlJ4gFpdOfDnO+B5pMVQoDQ=="
+            length="9863516"
+            type="application/octet-stream"/>
+        </item>
+      </channel>
+    </rss>
