@@ -6,6 +6,20 @@
         <description>Speed Reader release feed</description>
         <language>en</language>
         <item>
+          <title>Version 1.0.3</title>
+          <description>Fixed: the app now reports the correct version number. CFBundleShortVersionString / CFBundleVersion were hardcoded in Info.plist, so every installed build
+  identified itself as 1.0 and Sparkle kept offering updates on loop.</description>
+          <pubDate>Sun, 19 Apr 2026 19:00:00 +0000</pubDate>
+          <sparkle:version>4</sparkle:version>
+          <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+          <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+          <enclosure
+            url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.3/SpeedReader.dmg"
+            sparkle:edSignature="TAzGac+ZTpTOJ18Hp2hhed7bMTsFGByasy4qGGwx3nkkb/OMxLcvSRkV2N2RodBwyJStx/ve67jAffDPOjqLAw=="
+            length="9862169"
+            type="application/octet-stream"/>
+        </item>
+        <item>
           <title>Version 1.0.2</title>
           <description>Fixed: "Check for Updates" button in Settings overlay now works. The automatic-check toggle is wired to Sparkle.</description>
           <pubDate>Sun, 19 Apr 2026 18:00:00 +0000</pubDate>
