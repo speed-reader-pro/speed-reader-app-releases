@@ -6,20 +6,31 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.6</title>
+      <pubDate>Sun, 19 Apr 2026 18:00:00 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+          <p>If you buy Speed Reader from the website while your free trial is running, the app now unlocks automatically — no need to wait for the trial to end or re-enter your email on the paywall.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.6/SpeedReader.dmg"
+        sparkle:edSignature="aMMzC0gsR+e/HfSrjIg2AeABDNx/qASDCZ1pIeMz3u+Y42UaU53M8v2ZaNk7WGgB2cW4Tk/rB/MFUSJdHQiSCQ=="
+        length="9894504"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.5</title>
       <pubDate>Sun, 19 Apr 2026 16:00:00 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
       <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-          <h2>What's New</h2>
           <ul>
-              <li><b>Server-anchored trial:</b> onboarding now registers the email with our backend. The trial start timestamp comes from the server, so reinstalling or changing the system clock can no longer reset the trial. Offline onboarding still works and resyncs on next launch.</li>
-          </ul>
-          <h2>What's Fixed</h2>
-          <ul>
-              <li><b>Help / Guide re-entry:</b> opening the onboarding from the Help button or the Guide menu now skips the email page when the email is already on file. First-launch onboarding is unchanged.</li>
-              <li><b>Settings window</b> is now shorter (700 → 600 pt).</li>
+              <li>Your free trial is now tied to your email, so reinstalling the app or changing the system clock no longer resets it.</li>
+              <li>You can reopen the welcome guide anytime from Help without being asked for your email again.</li>
+              <li>The Settings window is a bit more compact.</li>
           </ul>
       ]]></description>
       <enclosure
@@ -35,13 +46,7 @@
       <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-          <h2>What's Fixed</h2>
-          <ul>
-              <li><b>Fresh install onboarding:</b> the email/paywall overlay no longer covers the onboarding flow on first launch. Onboarding runs first and collects the email on
-  its final page, which starts the 3-day trial.</li>
-              <li><b>Email prompt copy:</b> the fallback email screen now reads "Start Your Free Trial" / "Enter your email to begin 3 days of full access", matching the onboarding
-  wording.</li>
-          </ul>
+          <p>On a fresh install, the welcome guide now appears before the email prompt, and the email screen clearly mentions that you get 3 free days of full access.</p>
       ]]></description>
       <enclosure
         url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.4/SpeedReader.dmg"
@@ -51,13 +56,13 @@
     </item>
     <item>
       <title>Version 1.0.3</title>
-      <description>Fixed: the app now reports the correct version number. CFBundleShortVersionString
-        / CFBundleVersion were hardcoded in Info.plist, so every installed build
-        identified itself as 1.0 and Sparkle kept offering updates on loop.</description>
       <pubDate>Sun, 19 Apr 2026 19:00:00 +0000</pubDate>
       <sparkle:version>4</sparkle:version>
       <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+          <p>The app now reports the correct version number, which also stops the update prompt from reappearing after you've installed.</p>
+      ]]></description>
       <enclosure
         url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.3/SpeedReader.dmg"
         sparkle:edSignature="TAzGac+ZTpTOJ18Hp2hhed7bMTsFGByasy4qGGwx3nkkb/OMxLcvSRkV2N2RodBwyJStx/ve67jAffDPOjqLAw=="
@@ -66,12 +71,13 @@
     </item>
     <item>
       <title>Version 1.0.2</title>
-      <description>Fixed: "Check for Updates" button in Settings overlay now works. The
-        automatic-check toggle is wired to Sparkle.</description>
       <pubDate>Sun, 19 Apr 2026 18:00:00 +0000</pubDate>
       <sparkle:version>3</sparkle:version>
       <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+          <p>The "Check for Updates" button and the automatic-update toggle in Settings now work properly.</p>
+      ]]></description>
       <enclosure
         url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.2/SpeedReader.dmg"
         sparkle:edSignature="9hIAfBiqv/l+wOBkv33Ec9EKzdF+nzQ1MI0eGNa4OLSObc9LzjtCWkJh3qOYZf+mk95ehjtLzBpA+4I5AMVUDw=="
@@ -80,11 +86,13 @@
     </item>
     <item>
       <title>Version 1.0.1</title>
-      <description>Test release to verify Sparkle auto-update flow.</description>
       <pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate>
       <sparkle:version>2</sparkle:version>
       <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+          <p>Small polish to the update dialogs.</p>
+      ]]></description>
       <enclosure
         url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.1/SpeedReader.dmg"
         sparkle:edSignature="Psuef10vR6ng7lxdIu+Q+FSFg4pN6Cij83CyAuti7HX6dlZRAk2ts57E9ld8GSxFfL9Vw6PIBdG03F34SUQvAA=="
@@ -97,6 +105,9 @@
       <sparkle:version>1</sparkle:version>
       <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+          <p>First public release of Speed Reader.</p>
+      ]]></description>
       <enclosure
         url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0/SpeedReader.dmg"
         sparkle:edSignature="S5PrhzYcB7Imo2Tiv4AsEfNCELoPQEjcea6VaxXOGLb55OOIV1KAj90kzOIZiZdWlJ4gFpdOfDnO+B5pMVQoDQ=="
