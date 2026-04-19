@@ -6,6 +6,19 @@
         <description>Speed Reader release feed</description>
         <language>en</language>
         <item>
+          <title>Version 1.0.2</title>
+          <description>Fixed: "Check for Updates" button in Settings overlay now works. The automatic-check toggle is wired to Sparkle.</description>
+          <pubDate>Sun, 19 Apr 2026 18:00:00 +0000</pubDate>
+          <sparkle:version>3</sparkle:version>
+          <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+          <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+          <enclosure
+            url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.2/SpeedReader.dmg"
+            sparkle:edSignature="9hIAfBiqv/l+wOBkv33Ec9EKzdF+nzQ1MI0eGNa4OLSObc9LzjtCWkJh3qOYZf+mk95ehjtLzBpA+4I5AMVUDw=="
+            length="9862681"
+            type="application/octet-stream"/>
+        </item>
+        <item>
           <title>Version 1.0.1</title>
           <description>Test release to verify Sparkle auto-update flow.</description>
           <pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate>
