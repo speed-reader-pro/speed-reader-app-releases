@@ -6,6 +6,21 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.7</title>
+      <pubDate>Tue, 21 Apr 2026 09:49:41 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>App icon now renders correctly on all Macs — fixed a safe-area issue that made the icon look oversized with white corners on some displays.</p> 
+      ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.7/SpeedReader.dmg"
+        sparkle:edSignature="hm14kNgAOG9Oiwe0hLgPfMjdiFJYd+wUDMt7Kp9j5fG/7fhpRwzw8GGx118J51hRtS9dwQSq7QuaYrZSn2ZbCQ=="
+        length="8908989"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.6</title>
       <pubDate>Sun, 19 Apr 2026 18:00:00 +0000</pubDate>
       <sparkle:version>7</sparkle:version>
