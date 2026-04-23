@@ -6,6 +6,25 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.8</title>
+      <pubDate>Thu, 23 Apr 2026 19:13:32 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+          <ul>                                                                                                                                             
+            <li>Trial badge moved to the top of the content area — it stays visible regardless of sidebar state, and tapping it opens License settings
+  directly.</li>                                                                                                                                           
+            <li>Speed Reader can now be installed via Homebrew: <code>brew install --cask speed-reader-pro/tap/speed-reader</code>.</li>                   
+          </ul>                                                                                                                                            
+        ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.8/SpeedReader.dmg"
+        sparkle:edSignature="8CSrup5Pjxh7AV5shO0IBE5m9NNPls8p2TFgx7s16NTi8vutNW7yj4haGjAZ4lcmf/BZTeIay1VBGI1zvNMACg=="
+        length="8952755"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.7</title>
       <pubDate>Tue, 21 Apr 2026 09:49:41 +0000</pubDate>
       <sparkle:version>8</sparkle:version>
