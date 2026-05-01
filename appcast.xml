@@ -6,6 +6,27 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.9</title>
+      <pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+          <ul>
+            <li>Reading markdown files flows much more naturally — code blocks, math formulas, images, tables, footnotes, and emoji shortcodes all render properly in the preview and read at a sensible pace, no more crawling through code one token at a time or sailing past pictures silently.</li>
+            <li>Markdown documents now have <strong>Preview / Edit</strong> tabs, matching the PDF flow — handy for skimming or copying the raw source. Nothing is written back to the file.</li>
+            <li>Settings → Contact got a refresh: dedicated <strong>Contact Support</strong> and <strong>Restore Purchases</strong> buttons that take you straight into the in-app customer portal where you can leave a request or sign in to recover your license.</li>
+            <li>Statistics → Avg Speed no longer reports impossible numbers — very short or accidental sessions are now excluded, and the average is bounded by your actual speed setting.</li>
+            <li>Several richer markdown features now render correctly: definition lists, abbreviations with hover tooltips, sub- and superscripts, marked / inserted text, container blocks, and typographic replacements like <code>(c)</code> → ©.</li>
+          </ul>
+        ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.0.9/SpeedReader.dmg"
+        sparkle:edSignature="UBd7mOOoyiSkheU01KGCRqOYY4TUcvxd5DhMHygt+TWHDJs9jPPUPqxUL+x3SpiQr7/V8b+9RFD3DiipPRspCQ=="
+        length="9042304"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.8</title>
       <pubDate>Thu, 23 Apr 2026 19:13:32 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
