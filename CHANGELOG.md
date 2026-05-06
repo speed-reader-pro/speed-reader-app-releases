@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.1.0]
+
+### Zen Mode — a new distraction-free reading experience
+
+A fourth reading mode that opens in fullscreen on its own Space. Centered word with optional context, drag-scrub progress, info bar, and the standard playback  
+ controls. Esc / ⌘W / Done to exit.
+
+- **Top pause settings** — tweak WPM, font size, words-at-a-time, upcoming-words, auto-hide and loop right from the Zen window when paused.
+- **Auto-hide UI** — bottom controls fade out after 2 s of inactivity; mouse or keypress brings them back.
+- **Words at a time** — read 1–7 words per beat, classic chunked RSVP. Per-beat timing scales sub-linearly so chunked playback feels noticeably faster than single-word
+  at the same WPM.
+- **Loop** — auto-restart from the beginning when the article ends.
+- **Settings → Zen Mode tab** — font size (24–96 pt), upcoming words, auto-hide.  
+
+
+### Inline images
+
+Images now render and pause the reader on each picture instead of being silently skipped:
+
+- **URL articles** — images from web pages (including lazy-loaded ones).
+- **DOCX documents** — embedded images preserved in document order.  
+
+
+### External Reader Bar
+
+While reading happens in Notch, Separate Window or Zen, the main window now shows a compact bar with progress, ±word, play/pause, **Show** (brings the reader to front)
+and **Stop**.
+
+### Other improvements
+
+- Reading-mode selector now has four cards.
+- Zen opens paused — Play / Space starts the session.
+- After any pause the reader holds on the current word for 0.6 s before resuming, giving your eye a moment to re-fixate.
+- Zen scrubber resumes playback automatically after a drag if the session was playing.  
+
+
+### Fixed
+
+- Speed settings now stay synchronized between Settings and all reading modes.
+
 ## [1.0.9]
 
 - Reading markdown files now flows much more naturally: code blocks, math formulas, images, tables, footnotes, and `:emoji:` shortcodes all render properly in the preview and read at a sensible pace in the RSVP stream — no more crawling through code one token at a time or sailing past pictures silently.
@@ -23,10 +63,13 @@
   ```
 
 ## [1.0.7]
+
 - App icon now renders correctly on all Macs — fixed a safe-area issue that made the icon look oversized with white corners on some displays.
 
 ## [1.0.1 - 1.0.6]
+
 - Bug fixes, onboarding improvements, and update mechanism polish.
 
 ## [1.0]
+
 - **First public release** of Speed Reader.

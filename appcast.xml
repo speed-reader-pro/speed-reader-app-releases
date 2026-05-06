@@ -6,6 +6,30 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Wed, 06 May 2026 20:15:10 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+          <ul>
+            <li><strong>Zen Mode</strong> — a new distraction-free reading experience that opens fullscreen on its own Space, with a centered word, optional upcoming-words context, drag-scrub progress, and the standard playback controls. Esc / ⌘W / Done to exit.</li>
+            <li><strong>Top pause settings in Zen</strong> — tweak WPM, font size, words-at-a-time, upcoming words, auto-hide and loop right from the Zen window when paused, no need to leave fullscreen.</li>
+            <li><strong>Words at a time</strong> — read 1–7 words per beat (classic chunked RSVP). Per-beat timing scales sub-linearly so chunked playback feels noticeably faster than single-word at the same WPM.</li>
+            <li><strong>Loop and Auto-hide UI</strong> in Zen — auto-restart from the beginning when the article ends, and fade out the bottom controls after 2 s of inactivity.</li>
+            <li><strong>Inline images</strong> — pictures from URL articles and DOCX documents now render in the preview and pause the reader on each image instead of being silently skipped.</li>
+            <li><strong>External Reader Bar</strong> — when reading happens in Notch, Separate Window or Zen, the main window now shows a compact bar with progress, ±word, play/pause, Show, and Stop.</li>
+            <li>Reader holds on the current word for 0.6 s after any pause before resuming, giving your eye a moment to re-fixate.</li>
+            <li>Speed settings now stay synchronized between Settings and all reading modes.</li>
+          </ul>
+        ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.0/SpeedReader.dmg"
+        sparkle:edSignature="TFJ8CJbpRl+UCynYxIX4Jl1VEZf1BuFnh3anttjwdwRP1I+/D3KFHOIXfcnRT49S1jsDkEGbSEimtYjjnUf9CQ=="
+        length="9314185"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.9</title>
       <pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate>
       <sparkle:version>10</sparkle:version>
