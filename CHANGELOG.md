@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.1]
+
+### Added
+- **Back-10% / Forward-10% seek** (Shift + ←/→) now in all reading modes: Main window inline reader, Separate-window panel, Notch widget, and External Reader Bar.
+
+### Changed
+- **Zen chunked playback** (2+ words) now centers the indicator on the visual middle of the chunk for easier fixation; single-word mode unchanged.
+
+### Fixed
+- Play (or Space) during Notch countdown now cancels the overlay and starts playback immediately instead of starting hidden in the background.
+
 ## [1.1.0]
 
 ### Zen Mode — a new distraction-free reading experience

@@ -6,6 +6,27 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.1</title>
+      <pubDate>Wed, 13 May 2026 09:04:00 +0000</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+    <ul>
+      <li><strong>Back/Forward 10% seek</strong> — Back-10% and Forward-10% buttons (and Shift + ←/→) are now available in every reading mode: Main-window inline reader, Separate-window panel, Notch widget, and the External Reader Bar.</li>
+      <li><strong>Shift seek shortcut</strong> — the Shift + ←/→ keyboard shortcut works in Main, Notch, and Separate-window modes as well as Zen.</li>
+      <li><strong>Consistent seeking math</strong> — all modes use the same percent-based seek behavior so skips are uniform across readers.</li>
+      <li><strong>Zen chunked playback</strong> — for multi-word chunks (2+ words) the indicator now centers on the visual middle of the chunk for easier fixation; single-word mode remains unchanged.</li>
+      <li><strong>Notch playback fix</strong> — pressing Play (or Space) during the Notch 3-2-1 countdown now cancels the countdown overlay and starts playback immediately so the first words are not hidden.</li>
+    </ul>
+  ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.1/SpeedReader.dmg"
+        sparkle:edSignature="eLD6zBSTDvAfmsDPHkxO7MdjhrXmvpGXEHbE/yBfY8Ndkz/JJ8assuYhwpo5vQuBQtYlODr68C+WfipsPeSjBw=="
+        length="9332769"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.1.0</title>
       <pubDate>Wed, 06 May 2026 20:15:10 +0000</pubDate>
       <sparkle:version>11</sparkle:version>
