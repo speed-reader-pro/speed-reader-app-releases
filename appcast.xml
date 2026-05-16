@@ -6,6 +6,25 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.2</title>
+      <pubDate>Sat, 16 May 2026 13:00:05 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+    <ul>
+      <li><strong>⌘F search across all previews</strong> — opens a compact search panel with live highlighting, match count, navigation, and a <strong>Read from here</strong> action.</li>
+      <li><strong>Table of contents</strong> — new chapter sidebar for EPUB, FB2, Markdown, DOCX, PDF, and URL articles; click an entry to jump to that section.</li>
+      <li><strong>Unified preview toolbar</strong> — key preview controls are now grouped together in one top row for easier access.</li>
+    </ul>
+  ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.2/SpeedReader.dmg"
+        sparkle:edSignature="N6wy1oo0k2OXmI8ArDMWHHyPKfV5fntZ4V+ITCa7Y5AYJT0gkZI+o4NAfEr1nQkSLgh7dD38TOOv1idEilAnDQ=="
+        length="9682179"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.1.1</title>
       <pubDate>Wed, 13 May 2026 09:04:00 +0000</pubDate>
       <sparkle:version>12</sparkle:version>

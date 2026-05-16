@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.2]
+
+### Added
+- **⌘F search across all previews** — opens a compact search panel with live highlighting, match count, navigation, and a **Read from here** action.
+- **Table of contents** — new chapter sidebar for EPUB, FB2, Markdown, DOCX, PDF, and URL articles; click an entry to jump to that section.
+
+### Changed
+- **Unified preview toolbar** — key preview controls are now grouped together in one top row for easier access.
+
 ## [1.1.1]
 
 ### Added
