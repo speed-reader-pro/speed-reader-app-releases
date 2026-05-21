@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.3]
+
+### Added
+- **Auto-pause on visual blocks** — reading now pauses on images, math formulas, tables, and code blocks, with a preview or continue hint shown in the reader.
+- **Continue mode setting** — choose between waiting manually or auto-continuing after a set time, with a visible countdown.
+- **Lightbox for paused blocks** — paused content can be opened in a larger overlay for easier inspection.
+- **Math formulas via KaTeX** — formulas in DOCX, URL articles, and Markdown now render properly as a single reading block.
+- **Tables** — DOCX and URL tables now appear as real tables instead of plain text.
+- **Code blocks with syntax highlighting** — fenced code and code snippets now render with syntax highlighting.
+
+### Fixed
+- **Markdown auto-pause positions** now match the exact visible block.
+- **Highlighting inside paused code and tables** now stays on the correct placeholder.
+- **DOCX formulas** now render correctly in the preview.
+- **URL field locking** prevents switching articles during active reading.
+- **PDF links in URL input** are now handled more cleanly and no longer show unnecessary error noise.
+
 ## [1.1.2]
 
 ### Added

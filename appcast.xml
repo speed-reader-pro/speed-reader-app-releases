@@ -6,6 +6,33 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.3</title>
+      <pubDate>Thu, 21 May 2026 05:45:19 +0000</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+    <ul>
+      <li><strong>Auto-pause on visual blocks</strong> — reading now pauses on images, math formulas, tables, and code blocks, with a preview or continue hint shown in the reader.</li>
+      <li><strong>Continue mode setting</strong> — choose between waiting manually or auto-continuing after a set time, with a visible countdown.</li>
+      <li><strong>Lightbox for paused blocks</strong> — paused content can be opened in a larger overlay for easier inspection.</li>
+      <li><strong>Math formulas via KaTeX</strong> — formulas in DOCX, URL articles, and Markdown now render properly as a single reading block.</li>
+      <li><strong>Tables</strong> — DOCX and URL tables now appear as real tables instead of plain text.</li>
+      <li><strong>Code blocks with syntax highlighting</strong> — fenced code and code snippets now render with syntax highlighting.</li>
+      <li><strong>Markdown auto-pause positions</strong> now match the exact visible block.</li>
+      <li><strong>Highlighting inside paused code and tables</strong> now stays on the correct placeholder.</li>
+      <li><strong>DOCX formulas</strong> now render correctly in the preview.</li>
+      <li><strong>URL field locking</strong> prevents switching articles during active reading.</li>
+      <li><strong>PDF links in URL input</strong> are now handled more cleanly and no longer show unnecessary error noise.</li>
+    </ul>
+  ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.3/SpeedReader.dmg"
+        sparkle:edSignature="VBfjIK2kFXGoY3mHs9TcxvVBDlm+Mvo+9uRs3GVvUFIdvy9Jy0RpviH5deF51ZzEpa13xW/UeaOLGpM6TtxZBA=="
+        length="10497709"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.1.2</title>
       <pubDate>Sat, 16 May 2026 13:00:05 +0000</pubDate>
       <sparkle:version>13</sparkle:version>
