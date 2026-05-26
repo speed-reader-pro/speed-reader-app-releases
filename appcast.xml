@@ -6,6 +6,28 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.4</title>
+      <pubDate>Tue, 26 May 2026 05:07:37 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+    <ul>
+      <li><strong>Manual Plain / Markdown mode for pasted text</strong> — the Text tab now lets you choose the format instead of auto-detecting it.</li>
+      <li><strong>EPUB images, formulas, and tables</strong> — technical eBooks now pause on images, formulas, and tables instead of skipping them.</li>
+      <li><strong>DOCX code blocks</strong> — monospaced paragraphs are now treated as code blocks.</li>
+      <li><strong>Seek starting on a placeholder now pauses</strong> — starting playback on a pauseable block now shows its preview immediately.</li>
+      <li><strong>BookPreview highlighting for images, formulas, and tables</strong> now correctly outlines these blocks during pause.</li>
+      <li><strong>BookPreviewView renders images, formulas, and tables inline</strong> so EPUB/FB2 previews match the other document types.</li>
+    </ul>
+  ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.4/SpeedReader.dmg"
+        sparkle:edSignature="JcaxPlEIP6ujMXpMTwBbDnkEt662bbz5oh6k4BVzwdwHgRql26QBY3z7ulvxUzc5PJuEc/+QfkNASiCSwAa1CQ=="
+        length="10547313"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.1.3</title>
       <pubDate>Thu, 21 May 2026 05:45:19 +0000</pubDate>
       <sparkle:version>14</sparkle:version>

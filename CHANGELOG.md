@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.4]
+
+### Added
+- **Manual Plain / Markdown mode for pasted text** — the Text tab now lets you choose the format instead of auto-detecting it.
+- **EPUB images, formulas, and tables** — technical eBooks now pause on images, formulas, and tables instead of skipping them.
+- **DOCX code blocks** — monospaced paragraphs are now treated as code blocks.
+- **Seek starting on a placeholder now pauses** — starting playback on a pauseable block now shows its preview immediately.
+
+### Fixed
+- **BookPreview highlighting for images, formulas, and tables** now correctly outlines these blocks during pause.
+- **BookPreviewView renders images, formulas, and tables inline** so EPUB/FB2 previews match the other document types.
+
 ## [1.1.3]
 
 ### Added
