@@ -6,6 +6,27 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.5</title>
+      <pubDate>Sun, 07 Jun 2026 06:06:01 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+    <ul>
+      <li><strong>Performance: large URL loading optimization</strong> — heavy HTML articles now load much faster and no longer freeze the app.</li>
+      <li><strong>Web content blocking</strong> — offscreen page resources like images, styles, fonts, and scripts are no longer fetched when they are not needed.</li>
+      <li><strong>Faster article extraction</strong> — the article parsing code is loaded more efficiently and cleaned up reliably after each run.</li>
+      <li><strong>Better preview performance</strong> — only visible preview blocks are created, which reduces memory use and improves scrolling.</li>
+      <li><strong>Improved image caching</strong> — fetched images are reused more effectively across preview rebuilds.</li>
+    </ul>
+  ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.5/SpeedReader.dmg"
+        sparkle:edSignature="9C/54az+saNZ+Ts/kahzNSdcPNSK/pJQyk0CFAKOWnVkcAp9lCq34BceELWSiIBmf4mNiRYMfZON5zwDZctjAw=="
+        length="10596732"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.1.4</title>
       <pubDate>Tue, 26 May 2026 05:07:37 +0000</pubDate>
       <sparkle:version>15</sparkle:version>

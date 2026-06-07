@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.5]
+
+### Added
+- **Performance: large URL loading optimization** — heavy HTML articles now load much faster and no longer freeze the app.
+- **Web content blocking** — offscreen page resources like images, styles, fonts, and scripts are no longer fetched when they are not needed.
+- **Faster article extraction** — the article parsing code is loaded more efficiently and cleaned up reliably after each run.
+- **Better preview performance** — only visible preview blocks are created, which reduces memory use and improves scrolling.
+- **Improved image caching** — fetched images are reused more effectively across preview rebuilds.
+
 ## [1.1.4]
 
 ### Added
