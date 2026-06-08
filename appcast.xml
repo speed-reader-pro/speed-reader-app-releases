@@ -6,6 +6,25 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.6</title>
+      <pubDate>Mon, 08 Jun 2026 04:47:48 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+    <ul>
+      <li><strong>Pre-reading time-savings estimate</strong> — before reading starts, the app now shows how much time RSVP will save compared with regular reading.</li>
+      <li><strong>Bot-wall fallback via WebView</strong> — if a site blocks the normal fetch, the app now falls back to an offscreen browser view and continues from the fully loaded page.</li>
+      <li><strong>WebView fallback delay</strong> — the hydration delay now works reliably, so page loading no longer gets stuck.</li>
+    </ul>
+  ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.6/SpeedReader.dmg"
+        sparkle:edSignature="k+EGiPs7tnh1SgyNI2kCnm8qfaPSfhD2A3EX3WKOYFL0HPUaPqkKfUls2eYCuRefTibfQuB84vts7V1CxhUkBQ=="
+        length="10586517"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.1.5</title>
       <pubDate>Sun, 07 Jun 2026 06:06:01 +0000</pubDate>
       <sparkle:version>16</sparkle:version>

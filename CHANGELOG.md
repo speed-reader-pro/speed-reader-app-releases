@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.6]
+
+### Added
+- **Pre-reading time-savings estimate** — before reading starts, the app now shows how much time RSVP will save compared with regular reading.
+- **Bot-wall fallback via WebView** — if a site blocks the normal fetch, the app now falls back to an offscreen browser view and continues from the fully loaded page.
+
+### Fixed
+- **WebView fallback delay** — the hydration delay now works reliably, so page loading no longer gets stuck.
+
 ## [1.1.5]
 
 ### Added
