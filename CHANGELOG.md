@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.7]
+
+### Added
+- **Reading streak + activity heatmap** — a new Statistics overlay shows your current streak, longest streak, total days read, daily reading minutes, and a 20-week heatmap with color-coded intensity.
+- **Cross-session persistence** — reading stats are saved automatically so your streak and activity history stay available between sessions.
+
 ## [1.1.6]
 
 ### Added

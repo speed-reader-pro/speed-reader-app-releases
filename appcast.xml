@@ -6,6 +6,24 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.7</title>
+      <pubDate>Wed, 10 Jun 2026 04:49:46 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+    <ul>
+      <li><strong>Reading streak + activity heatmap</strong> — a new Statistics overlay shows your current streak, longest streak, total days read, daily reading minutes, and a 20-week heatmap with color-coded intensity.</li>
+      <li><strong>Cross-session persistence</strong> — reading stats are saved automatically so your streak and activity history stay available between sessions.</li>
+    </ul>
+  ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.7/SpeedReader.dmg"
+        sparkle:edSignature="EMJiVwYA+J5TNawHtSXp7Wv0fCX8fweWfXKqW72KhMfRonNTeagf5HeNangXD87MXXtO+mDIrn7Y2hc0ONOmAg=="
+        length="10655389"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.1.6</title>
       <pubDate>Mon, 08 Jun 2026 04:47:48 +0000</pubDate>
       <sparkle:version>17</sparkle:version>
