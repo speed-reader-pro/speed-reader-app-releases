@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.8]
+
+### Added
+- **Read URL from Browser (⌘⇧U)** — the app can now grab the current tab URL from your browser with one shortcut.
+- **Browser tab picker in URL tab** — a new picker lets you choose any open browser tab and load it directly.
+
 ## [1.1.7]
 
 ### Added

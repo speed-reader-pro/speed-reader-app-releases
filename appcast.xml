@@ -6,6 +6,24 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.8</title>
+      <pubDate>Fri, 12 Jun 2026 07:17:42 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+    <ul>
+      <li><strong>Read URL from Browser (⌘⇧U)</strong> — the app can now grab the current tab URL from your browser with one shortcut.</li>
+      <li><strong>Browser tab picker in URL tab</strong> — a new picker lets you choose any open browser tab and load it directly.</li>
+    </ul>
+  ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.8/SpeedReader.dmg"
+        sparkle:edSignature="pjNmKPsZ0vgmUACpzUP4mWcAyX9/wleARmUZkgwsNJdImAjTO8IRsR17eH14JIcgyVyO82C6eeLO36wKQODFCg=="
+        length="10730117"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.1.7</title>
       <pubDate>Wed, 10 Jun 2026 04:49:46 +0000</pubDate>
       <sparkle:version>18</sparkle:version>
