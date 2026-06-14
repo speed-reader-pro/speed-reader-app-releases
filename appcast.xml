@@ -6,6 +6,23 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.9</title>
+      <pubDate>Sun, 14 Jun 2026 06:23:28 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+    <ul>
+      <li><strong>URL bot-wall fallback reliability</strong> — sites that first return a placeholder and then load the real article now work more reliably, with retry handling for script or DOM delays and better protection against race conditions during navigation.</li>
+    </ul>
+  ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.9/SpeedReader.dmg"
+        sparkle:edSignature="BmTEtlgbXT3uJvXbe2o1ee7DeVmIIHuw9u4BRpv/yQ6foG3CQRhyG/4K4bYZb3ZmTjhJEF6blFafs8OBZ9K/Bg=="
+        length="10732268"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.1.8</title>
       <pubDate>Fri, 12 Jun 2026 07:17:42 +0000</pubDate>
       <sparkle:version>19</sparkle:version>

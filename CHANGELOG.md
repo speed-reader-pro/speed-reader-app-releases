@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.9]
+
+### Fixed
+- **URL bot-wall fallback reliability** — sites that first return a placeholder and then load the real article now work more reliably, with retry handling for script or DOM delays and better protection against race conditions during navigation.
+
 ## [1.1.8]
 
 ### Added
