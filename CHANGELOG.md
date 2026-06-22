@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.10]
+
+### Added
+- **Prevent display sleep during reading** — the display now stays awake while RSVP playback is active and returns to normal sleep behavior when playback is paused or finished.
+
 ## [1.1.9]
 
 ### Fixed
