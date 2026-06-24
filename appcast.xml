@@ -6,6 +6,24 @@
     <description>Speed Reader release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.11</title>
+      <pubDate>Wed, 24 Jun 2026 05:44:56 +0000</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>1.1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+    <ul>
+      <li><strong>Previous-word context line in Zen Mode</strong> — optionally shows a few words before the current RSVP position to help restore context without seeking back.</li>
+      <li><strong>GIF images in URL articles</strong> — GIFs are now skipped during extraction so they no longer slow down or hang the app.</li>
+    </ul>
+  ]]></description>
+      <enclosure
+        url="https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v1.1.11/SpeedReader.dmg"
+        sparkle:edSignature="Yh0Lf+G8ZLrKr1jOJ9ycgJZNif2b2QXIYtYCNZ37nCD1lGoEkXJtYl5jMGT/7KG9H6+SkUeGNwzPiVXhEvZZAQ=="
+        length="10737260"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.1.10</title>
       <pubDate>Mon, 22 Jun 2026 04:51:46 +0000</pubDate>
       <sparkle:version>21</sparkle:version>

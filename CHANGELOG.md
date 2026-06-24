@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.11]
+
+### Added
+- **Previous-word context line in Zen Mode** — optionally shows a few words before the current RSVP position to help restore context without seeking back.
+
+### Fixed
+- **GIF images in URL articles** — GIFs are now skipped during extraction so they no longer slow down or hang the app.
+
 ## [1.1.10]
 
 ### Added
