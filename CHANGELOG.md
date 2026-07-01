@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.12]
+
+### Changed
+- **Back/Forward 10 now jumps by words** — the Back/Forward 10 controls and Shift+←/→ now move by 10 words instead of 10% of the document.
+- **Zen previous-word context sits closer to the RSVP marks** — the context line is positioned nearer to the current reading flow for easier follow-along.
+
 ## [1.1.11]
 
 ### Added
